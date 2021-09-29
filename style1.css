@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+.container{
+    background: rgb(253, 245, 218);
+    width: auto;
+    height: auto;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+}
+#dashboard{
+    background: rgb(253, 245, 218);
+    width: 780px;
+    min-height: 500px;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+ 
+      
+.container .text{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container .stext{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container .shead{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container form{
+    padding: 30px 0 0 0 0;
+}
+.container table{
+    /* display: flex; */
+    /* /* position: relative; */
+    text-align: center;
+}
+table input{
+    width: 100%;
+}
+.container form .form-row{
+    display: flex;
+    margin: 32px 0;
+}
+form .form-row .input-data{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+    text-align: center;
+    
+}
+
+form .form-row .textarea{
+    height: 70px;
+}
+.input-data input,
+.textarea textarea{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: rgb(250, 240, 240);
+    border: 1px solid rgba(0,0,0,0.12);
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0,0,0,0.12);
+}
+.textarea textarea{
+    resize: none;
+    padding-top: 10px;
+}
+
+
+.pdButton{
+    
+    width: auto;
+    height: 65px;
+    font-size: large;
+    background-color:blue;
+    border: 3px solid grey;
+    border-radius: 10px;
+    color:white;
+    margin-top: 20px;
+    margin-left: 170px;
+    box-shadow: 4px 4px rgb(41, 41, 245);
+}
+.dButton{
+    display: block;
+    text-align: center;
+    width: 163px;
+    height: 65px;
+    font-size: large;
+    background-color: blue;
+    border: 3px solid grey ;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 4px 4px rgb(41, 41, 245) ;
+    margin-left: 140px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 50px;
+    align-content: center;
+    align-items: center;
+}
+.feyd{
+    width: auto;
+    height: 50px;
+    font-size: large;
+    background-color: blue;
+    border: 3px solid gray;
+    border-radius: 10px;
+    color: white;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.template{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 800px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.template .left{
+    width: 310px;
+    min-height: 800px;
+    float: left;
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    
+}
+
+.personal_info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.personal_info .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.personal_info .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.personal_info h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.contact_info{
+    padding-top: 40px;
+    margin-top: 80px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact_info ul{
+    position: relative;
+}
+.contact_info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact_info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contact_info ul li .text1{
+    color: white;
+    font-weight: 300;
+
+}
+
+
+.template .right{
+    width: 100%;
+    min-height: 800px;
+    display: inline-block;
+    /* float: nonet; */
+    position: relative;
+    background: #ffff;
+    padding: 40px;
+    
+} 
+.background{
+    background: #003147;
+
+}  
+.right .background h3{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+} 
+.card-body{
+    font-size: 1.2em;
+}
+table{
+    width: 100%;
+    
+}
+
+.ltd{
+    
+    width: 30%;
+    height: 80px;
+    
+}
+
+
